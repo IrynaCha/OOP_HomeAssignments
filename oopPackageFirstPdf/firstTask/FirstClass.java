@@ -4,8 +4,8 @@ package oopPackageFirstPdf.firstTask;
  * Created by Kurnosova Iryna on 19.11.2017.
  */
 public class FirstClass {
-    String txt;
-    char symbol;
+    private String txt;
+    private char symbol;
 
     FirstClass() {
         this.txt = "Lorem ipsum";
@@ -21,7 +21,7 @@ public class FirstClass {
         return txt;
     }
 
-    public void setTxt(String txt) {
+    private void setTxt(String txt) {
         this.txt = txt;
     }
 
@@ -29,7 +29,7 @@ public class FirstClass {
         return symbol;
     }
 
-    public void setSymbol(char symbol) {
+    private void setSymbol(char symbol) {
         this.symbol = symbol;
     }
 
