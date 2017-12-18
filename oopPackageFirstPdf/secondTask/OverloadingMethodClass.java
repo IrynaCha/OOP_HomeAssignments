@@ -4,7 +4,7 @@ package oopPackageFirstPdf.secondTask;
  * Created by Kurnosova Iryna on 19.11.2017.
  */
 public class OverloadingMethodClass {
-    char symbol;
+    private char symbol;
 
     OverloadingMethodClass() {
         symbol = 'A';
