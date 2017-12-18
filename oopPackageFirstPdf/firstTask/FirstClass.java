@@ -21,7 +21,7 @@ public class FirstClass {
         return txt;
     }
 
-    private void setTxt(String txt) {
+    public void setTxt(String txt) {
         this.txt = txt;
     }
 
@@ -29,7 +29,7 @@ public class FirstClass {
         return symbol;
     }
 
-    private void setSymbol(char symbol) {
+    public void setSymbol(char symbol) {
         this.symbol = symbol;
     }
 
