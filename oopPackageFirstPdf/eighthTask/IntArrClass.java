@@ -9,7 +9,7 @@ package oopPackageFirstPdf.eighthTask;
  * Описать перегруженный статический метод, кот. на основании объекта этого класса вернет копию массива (из данного объекта), а на основании переданного аргументом массива создает объект соответствующего класса.
  */
 public class IntArrClass {
-    public int[] arr = {1, 5, 7, 9, 99};
+    private int[] arr = {1, 5, 7, 9, 99};
 
     public IntArrClass() {
         super();

@@ -12,12 +12,12 @@ package oopPackageFirstPdf.ninthClass;
  */
 public class Main {
     static void returnValues(SecondaryClass[] obj) {
-        int max = obj[0].digit;
+        int max = obj[0].getDigit();
         int index = 0;
         int value = 0;
         for (int i = 1; i < obj.length; i++) {
-            if (obj[i].digit >= max) {
-                max = obj[i].digit;
+            if (obj[i].getDigit() >= max) {
+                max = obj[i].getDigit();
                 index = i;
                 value = max;
             } else {
@@ -36,10 +36,10 @@ public class Main {
         for (int i = 0; i < k; i++) {
             d = (int) (Math.random() * f + 1);
             arr[i] = new SecondaryClass();
-            arr[i].digit = d;
+            arr[i].setDigit(d);
         }
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i].digit + "\t");
+            System.out.print(arr[i].getDigit() + "\t");
         }
         System.out.println();
         returnValues(arr);

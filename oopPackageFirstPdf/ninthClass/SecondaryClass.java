@@ -11,7 +11,7 @@ package oopPackageFirstPdf.ninthClass;
  * Описать статический метод, который в массиве объектов находит объект с наибольшим значением поля и возвращает результатом текст с указанием индекса объекта и значением его поля.
  */
 public class SecondaryClass {
-    public int digit;
+    private int digit;
 
     SecondaryClass() {
         digit = 1;

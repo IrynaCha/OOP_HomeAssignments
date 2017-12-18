@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println("***************");
         IntArrClass arrClass = new IntArrClass();
-        IntArrClass.showArr(arrClass.arr);
+        IntArrClass.showArr(arrClass.getArr());
         System.out.println();
         arrMain = IntArrClass.returnMethod(arrClass);
         IntArrClass.showArr(arrMain);
