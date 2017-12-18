@@ -9,7 +9,7 @@ package oopPackageFirstPdf.firstTask;
 public class Main {
     public static void main(String[] args) {
         FirstClass firstClass = new FirstClass();
-        firstClass.setTxt("Sth");
+        firstClass.setTxt("Sth_v");
         firstClass.setSymbol('k');
         System.out.println(firstClass);
     }
