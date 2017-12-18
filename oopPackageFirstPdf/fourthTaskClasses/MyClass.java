@@ -8,8 +8,8 @@ package oopPackageFirstPdf.fourthTaskClasses;
  * 4) Программа с классом, есть 2 поля(символьное и целочисленное) и метод, которому передается объект того же класса. При вызове метода объекту, из которого вызывается метод, присваиваются значения полей объекта, переданного аргументом методу. У объекта, переданного аргументом методу, значения полей увеличиваются на единицу.
  */
 public class MyClass {
-    char symbol;
-    int digit;
+    private char symbol;
+    private int digit;
 
     MyClass() {
         digit = 7;
@@ -39,7 +39,7 @@ public class MyClass {
 
     @Override
     public String toString() {
-        return "symbol is: " + symbol + " digigt is: " + digit;
+        return "symbol is: " + symbol + " digit is: " + digit;
     }
 
     void returnData(MyClass obj) {
